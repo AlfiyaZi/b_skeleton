@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt',
+1 verbose cli   '–-save-dev' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of C:\!\UI\IBM - SiBM Blueview Interview Helper Tablet UI Prototype Challenge - Part 1 v1.0\Project2\package.json
+5 warn package.json project2@1.0.0 No repository field.
+6 warn package.json project2@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from C:\!\UI\IBM - SiBM Blueview Interview Helper Tablet UI Prototype Challenge - Part 1 v1.0\Project2\node_modules\grunt\package.json
+8 info package.json grunt@0.4.5 No license field.
+9 verbose readDependencies loading dependencies from C:\!\UI\IBM - SiBM Blueview Interview Helper Tablet UI Prototype Challenge - Part 1 v1.0\Project2\package.json
+10 verbose install grunt is installed as 0.4.5
+11 silly cache add args [ 'grunt', null ]
+12 verbose cache add spec grunt
+13 silly cache add args [ '–-save-dev', null ]
+14 verbose cache add spec –-save-dev
+15 silly cache add parsed spec { raw: 'grunt',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'grunt',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: '*',
+15 silly cache add   type: 'range' }
+16 silly addNamed grunt@*
+17 verbose addNamed "*" is a valid semver range for grunt
+18 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+19 silly mapToRegistry name grunt
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/grunt
+23 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+24 silly cache add parsed spec { raw: '–-save-dev',
+24 silly cache add   scope: null,
+24 silly cache add   name: null,
+24 silly cache add   rawSpec: '–-save-dev',
+24 silly cache add   spec: 'C:\\!\\UI\\IBM - SiBM Blueview Interview Helper Tablet UI Prototype Challenge - Part 1 v1.0\\Project2\\–-save-dev',
+24 silly cache add   type: 'local' }
+25 error addLocal Could not install C:\!\UI\IBM - SiBM Blueview Interview Helper Tablet UI Prototype Challenge - Part 1 v1.0\Project2\–-save-dev
+26 verbose request uri https://registry.npmjs.org/grunt
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 14:35:08
+29 verbose request id 56108bb5b7bf6e5e
+30 verbose etag "CMK0E6FT3J4J5C3I0Z1QN9JSN"
+31 http request GET https://registry.npmjs.org/grunt
+32 http 304 https://registry.npmjs.org/grunt
+33 silly get cb [ 304,
+33 silly get   { date: 'Mon, 14 Sep 2015 10:36:04 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     'cache-control': 'max-age=60',
+33 silly get     etag: '"CMK0E6FT3J4J5C3I0Z1QN9JSN"',
+33 silly get     age: '2',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-ams4136-AMS',
+33 silly get     'x-cache': 'HIT',
+33 silly get     'x-cache-hits': '1',
+33 silly get     'x-timer': 'S1442226964.049584,VS0,VE1',
+33 silly get     vary: 'Accept' } ]
+34 verbose etag https://registry.npmjs.org/grunt from cache
+35 verbose get saving grunt to C:\Users\1\AppData\Roaming\npm-cache\registry.npmjs.org\grunt\.cache.json
+36 silly addNameRange number 2 { name: 'grunt', range: '*', hasData: true }
+37 silly addNameRange versions [ 'grunt',
+37 silly addNameRange   [ '0.1.0',
+37 silly addNameRange     '0.1.1',
+37 silly addNameRange     '0.1.2',
+37 silly addNameRange     '0.2.0',
+37 silly addNameRange     '0.2.1',
+37 silly addNameRange     '0.2.2',
+37 silly addNameRange     '0.2.3',
+37 silly addNameRange     '0.2.4',
+37 silly addNameRange     '0.2.5',
+37 silly addNameRange     '0.2.6',
+37 silly addNameRange     '0.2.7',
+37 silly addNameRange     '0.2.8',
+37 silly addNameRange     '0.2.9',
+37 silly addNameRange     '0.2.10',
+37 silly addNameRange     '0.2.11',
+37 silly addNameRange     '0.2.12',
+37 silly addNameRange     '0.2.13',
+37 silly addNameRange     '0.2.14',
+37 silly addNameRange     '0.2.15',
+37 silly addNameRange     '0.3.0',
+37 silly addNameRange     '0.3.1',
+37 silly addNameRange     '0.3.2',
+37 silly addNameRange     '0.3.3',
+37 silly addNameRange     '0.3.4',
+37 silly addNameRange     '0.3.5',
+37 silly addNameRange     '0.3.6',
+37 silly addNameRange     '0.3.7',
+37 silly addNameRange     '0.3.8',
+37 silly addNameRange     '0.3.9',
+37 silly addNameRange     '0.3.10',
+37 silly addNameRange     '0.3.11',
+37 silly addNameRange     '0.3.12',
+37 silly addNameRange     '0.3.13',
+37 silly addNameRange     '0.3.14',
+37 silly addNameRange     '0.3.15',
+37 silly addNameRange     '0.3.16',
+37 silly addNameRange     '0.3.17',
+37 silly addNameRange     '0.4.0',
+37 silly addNameRange     '0.4.1',
+37 silly addNameRange     '0.4.2',
+37 silly addNameRange     '0.4.3',
+37 silly addNameRange     '0.4.4',
+37 silly addNameRange     '0.4.5',
+37 silly addNameRange     '0.3.13-a',
+37 silly addNameRange     '0.4.0-a',
+37 silly addNameRange     '0.4.0-rc1',
+37 silly addNameRange     '0.4.0-rc2',
+37 silly addNameRange     '0.4.0-rc3',
+37 silly addNameRange     '0.4.0-rc4',
+37 silly addNameRange     '0.4.0-rc5',
+37 silly addNameRange     '0.4.0-rc6',
+37 silly addNameRange     '0.4.0-rc7',
+37 silly addNameRange     '0.4.0-rc8' ] ]
+38 silly addNamed grunt@0.4.5
+39 verbose addNamed "0.4.5" is a plain semver version for grunt
+40 silly cache afterAdd grunt@0.4.5
+41 verbose afterAdd C:\Users\1\AppData\Roaming\npm-cache\grunt\0.4.5\package\package.json not in flight; writing
+42 verbose afterAdd C:\Users\1\AppData\Roaming\npm-cache\grunt\0.4.5\package\package.json written
+43 verbose stack Error: ENOENT, open 'C:\!\UI\IBM - SiBM Blueview Interview Helper Tablet UI Prototype Challenge - Part 1 v1.0\Project2\–-save-dev'
+43 verbose stack     at Error (native)
+44 verbose cwd C:\!\UI\IBM - SiBM Blueview Interview Helper Tablet UI Prototype Challenge - Part 1 v1.0\Project2
+45 error Windows_NT 6.0.6002
+46 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt" "–-save-dev"
+47 error node v0.12.7
+48 error npm  v2.11.3
+49 error path C:\!\UI\IBM - SiBM Blueview Interview Helper Tablet UI Prototype Challenge - Part 1 v1.0\Project2\–-save-dev
+50 error code ENOENT
+51 error errno -4058
+52 error enoent ENOENT, open 'C:\!\UI\IBM - SiBM Blueview Interview Helper Tablet UI Prototype Challenge - Part 1 v1.0\Project2\–-save-dev'
+52 error enoent This is most likely not a problem with npm itself
+52 error enoent and is related to npm not being able to find a file.
+53 verbose exit [ -4058, true ]
